@@ -1,0 +1,14 @@
+{
+  "name": "nuxt-i18n-preload-frozen-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "preview": "node .output/server/index.mjs"
+  },
+  "dependencies": {
+    "@nuxtjs/i18n": "10.6.0",
+    "nuxt": "^4.5.2",
+    "vue": "^3.5.0"
+  }
+}
